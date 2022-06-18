@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnau S - Feyse</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+  <link rel="stylesheet" href="./assets/css/work.css">
+  <link rel="stylesheet" href="./assets/js/aos.js">
+  <link rel="stylesheet" href="./assets/js/type.js">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<!--<link href="./assets/css/pointer.css" rel="stylesheet">-->
+<script src="./assets/js/scrollup.js"></script>
+
+</head>
+
+
+<body>
+
+    <header>
+        
+        <div class="logo">
+            <a href="">[AS]</a>
+        </div>
+        <nav class="menu">
+            <div class="cajasheader">
+            <a class="contact" href="#contact-ancla">C0NT4CT0_</a>
+            <!-- <a class="about" href="about.html">S0BRE MI_</a> --->
+            <a class="work" href="#selected-work">PR0Y3CT0S_</a>
+            </div>
+
+            <div class="burger">
+            
+                <!-- Everything below this is part of the burger menu-->
+                </div>
+                <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+                <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <li class="borderb js-close-menu"><a href="index.html">1N1C10_</a></li>
+                        <li class="borderb js-close-menu"><a href="#selected-work">PR0Y3CT0S_</a></li>
+                       <!-- <li class="borderb js-close-menu"><a href="about.html">S0BRE MI_</a></li> -->
+                        <li class="borderb js-close-menu"><a href="#contact-ancla">C0NT4CT0_</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="/assets/js/script.js"></script>
+
+        </nav>
+    </header>
+
+    <div class="progress"></div>
+
+<section class="trabajos">
+    <div class="title" data-aos="fade-up" data-aos-duration="1500">
+        Feyse
+    </div>
+    <div class="description" data-aos="fade-up" data-aos-duration="2000">
+    Servicio de conserjería y gestión de parkings
+    </div>
+</section>
+
+<section>
+    <div class="disclaimer" data-aos="fade-up" data-aos-duration="2500">
+
+            <i class="material-icons" style="color: #75A4FF;">info</i>
+            <p> Este proyecto fue realizado mientras trabajé en una agencia de branding.</p>
+
+    </div>
+</section>
+
+<img src="./assets/img/feyse_arnau_1.png"  data-aos="fade-up" data-aos-duration="2000" alt="">
+
+<section>
+    <p class="first_info mini_title" data-aos="fade-right" data-aos-duration="3000">
+        <u>Rol:</u> UI + Motion Graphics Designer
+        <br>
+        <u>Deadline:</u> 1 mes
+    </p>
+</section>
+   
+<section>
+
+    <div class="process" data-aos="fade-right"
+    data-aos-duration="3000">
+        <p class="descriptions">
+            Feyse es una empresa que proporciona servicios de conserjería y gestión de parkings. Los valores que les representan son la cercanía y el compromiso.
+        </p>
+    </div>
+
+    <div class="process" data-aos="fade-right" data-aos-duration="3000">
+        <p class="descriptions">
+            La identidad fue tratada con el objetivo de crear formas orgánicas, tal y como se aprencia en el logo. Se diseñaron y animaron unas ilustraciones para crear la sensación de movimiento y de cercanía con los potenciales clientes. 
+        </p>
+    </div>
+
+    <img src="./assets/img/feyse_arnau_2.png"  data-aos="fade-up" data-aos-duration="2000" alt="">
+    
+    <img src="./assets/img/feyse_arnau_3.png" data-aos="fade-up" data-aos-duration="2000" alt="">
+   
+    <div class="process" data-aos="fade-up" data-aos-duration="2000">
+        <p class="descriptions" >
+            <a href="https://feyse.es/" target="" rel="noreferrer">
+        Ir a la web de feyse.es</a>
+        </p>
+    </div>
+
+</section>
+
+<h5 data-aos="fade-up"
+data-aos-duration="3000">
+    ¡H4BLEM0S! ;)<br>
+<div class="mail">
+    <a href="mailto:arnausebastia98@gmail.com">arnausebastia98@gmail.com</a>
+</div>
+</h5>
+
+<footer>
+    <div class="rrss">
+        
+            <a href="https://www.linkedin.com/in/arnausebastiafarre/" target="_blank" rel="noopener noreferrer">l1nked1n</a>
+            <a href="https://www.behance.net/arnausebastia" target="_blank" rel="noopener noreferrer">bEh4nce</a>
+    </div>
+
+        <div class="copy">
+            4RN4U S3BAST1A 2022
+        </div>
+</footer>
+                
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+    <img data-aos="fade-up" data-aos-duration="1000" class="button" src="./assets/img/Group 9.svg" alt="">
+</button>
+
+    <script  src="./assets/js/type.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+        $(document).on("scroll", function(){
+        var pixels = $(document).scrollTop();
+        var pageHeight = $(document).height() - $(window).height();
+        var progress = 100 * pixels / pageHeight;
+        
+        $("div.progress").css("width", progress + "%");
+        })
+
+        // ---- Notes ---- //
+
+        // pixels = amount of px from top of page
+        // pageHeight = whole page height minus viewable page height
+        // progress = pixels from top / page-height * 100
+    </script>
+</body>
+<!--<script src="./assets/js/pointer.js"></script>
+<script>
+    init_pointer({s
+        
+    })
+</script>-->
+</html>
